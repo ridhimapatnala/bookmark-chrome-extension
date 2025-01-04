@@ -1,0 +1,90 @@
+body{
+    margin:0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+#input-el{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    height:40px;
+    box-sizing: border-box;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+#input-btn, #tab-btn{
+    background-color:  rgb(15, 180, 255);
+    width:150px;
+    padding: 10px 20px;
+    text-align: center;
+    border: 2px solid  rgb(15, 180, 255);
+    border-radius: 4px;
+    margin-top:5px;
+    color: white;
+    font-weight: bold;
+}
+#delete-btn{
+    background-color: white;
+    width:150px;
+    padding: 10px 20px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    margin-top:5px;
+    color: rgb(15, 180, 255);
+    border: 2px solid  rgb(15, 180, 255);
+    font-weight: bold;
+}
+#navigator {
+    position: fixed;
+    top: 199px;
+    left: 0;
+}
+ul{
+    margin-top: 20px;
+    list-style-type: none;
+    padding-left: 0px;
+}
+li{
+    margin-top: 5px;
+}
+li a{
+    text-decoration: none;
+    color:  rgb(15, 180, 255);
+}
+li a:hover{
+    text-decoration: underline;
+    color: rgb(15, 180, 255);
+}
+.edit-btn{
+    background-color:  rgb(3, 167, 69);
+    width:50px;
+    padding: 5px 5px;
+    text-align: center;
+    border: 2px solid  rgb(3, 167, 69);
+    border-radius: 4px;
+    margin-top:5px;
+    color: white;
+    font-weight: bold;
+}
+
+.edit-btn:hover, .delete-item-btn:hover, #input-btn:hover, #delete-btn:hover, #tab-btn:hover{
+    border: 2px solid rgba(0, 0, 0, 0.418);
+}
+.delete-item-btn{
+    background-color:  rgb(255, 15, 59);
+    width:50px;
+    padding: 5px 5px;
+    text-align: center;
+    border: 2px solid  rgb(255, 15, 59);
+    border-radius: 4px;
+    margin-top:5px;
+    color: white;
+    font-weight: bold;
+}

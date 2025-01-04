@@ -1,1 +1,2 @@
 # bookmark-chrome-extension
+A bookmarks app built using HTML, CSS, and JavaScript allows users to save website links. It provides features like adding new bookmarks, editing or deleting saved links, and quickly accessing favorite websites, all within a user-friendly interface.
